@@ -1,0 +1,32 @@
+
+.topo{ 
+    border: 1px inset black;
+    padding: 6px;
+    color: blanchedalmond;
+    background-color: rgb(4, 67, 46);
+    height: 110px;
+    text-align: center;
+    font-size: larger;
+    align-content: center;
+
+}
+.menu{
+    border: 1px inset blue;
+    padding: 6px;
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+    height: 350px;
+
+}
+
+.conteudo{
+    border: 1px inset blue;
+    padding: 6px;
+    width: 300px;
+    float: left;
+    height: 500px;
+}
+body{ 
+margin: 0px;
+}
