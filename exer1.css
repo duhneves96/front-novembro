@@ -1,9 +1,9 @@
 
 .topo{ 
-    border: 1px inset black;
+    
     padding: 6px;
     color: blanchedalmond;
-    background-color: rgb(19, 27, 25);
+    background-color: rgb(41, 40, 40);
     height: 110px;
     text-align: center;
     font-size: larger;
@@ -11,22 +11,39 @@
 
 }
 .menu{
-    border: 1px inset blue;
+   
+    background-color: rgb(41, 40, 40);
     padding: 6px;
-    width: 180px;
+    width: 130px;
     float: left;
     margin-right: 10px;
-    height: 350px;
+    height: 1000px;
+    font-size: larger;
 
 }
 
 .conteudo{
-    border: 1px inset blue;
+    border: 0px inset blue;
     padding: 6px;
     width: 300px;
     float: left;
     height: 500px;
+    align-content: center;
 }
 body{ 
 margin: 0px;
+}
+#icon{
+    font-size: 50px;
+    margin-left: 40px;
+    margin: 30px;
+}
+
+.int1{
+margin-top: 30px;
+background-color: rgb(41, 40, 40);
+
+}
+.but1{
+    background-color: dimgrey;
 }
