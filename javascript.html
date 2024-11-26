@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+<meta charset="UTF-8">
+<!--<meta name="viewport" content="width=device-width,">-->
+        <title>javascript</title>
+    
+    <script>
+        function oi()
+        {
+                var nome = "Edir";
+                nome = prompt("digite seu nome");
+
+            alert("oi "+ nome +"!!")
+        }
+       
+
+
+        
+         //tipos de variaveis
+    //var nome= "edir";// texto -> string
+    //var idade= 23; // numero -> integer =>number int
+    //var peso= 60.2; // numero -> float 
+    //var acordado = true // boolean 
+
+    //algoritimo
+
+    // > -- maior
+    // <-- menor
+    // == -- igual
+    // >= -- maior ou igual
+    // <= -- menor ou igual
+    // != -- diferente
+
+        function maior ()
+        {
+            var n1 = prompt("digite num1");
+            var n2 = prompt("digite num2");
+                if ( n1 > n2)
+                { 
+                    alert("o numero maior é "+ n1);
+                } else if ( n2 > n1)
+                { 
+                    alert("o numero maior é "+ n2);
+
+                } 
+                else ( n1 == n2 );
+                {
+                    alert ("ambos sao iguais");
+                }
+        }
+
+
+        function maior3 ()
+        {
+            var n1 = prompt("digite num1");
+            var n2 = prompt("digite num2");
+            var n3 = prompt("digite num3");
+                  if ( n1 > n2 )
+                { if ( n1 > n3)
+                {
+                    alert("o numero maior é "+ n1);
+                }
+                } else if ( n2 > n3 )
+                { 
+                    alert("o numero maior é "+ n2);
+    
+                } else 
+                {
+                    alert ("o numero maior é "+ n3);
+                }
+        }
+
+//digitar idade e indentificar faixa etaria 
+// < 12 criança
+// > 12 < 17 adolecente
+// > 18 < 59 adulto
+// > 60 idoso
+// < 2 bebe
+
+        function idade ()
+        {
+            var i1 = prompt("digite sua idade!!");
+                if ( i1 <= 2 )
+                {   
+                     alert ("você é um bebe!!");
+                }  else if ( i1 <= 12 )
+                { 
+                    alert ("voce é uma criança!!");
+                } else if ( i1 <= 17 )
+                {
+                    alert ("voce é um adolecente!!");
+                } else if ( i1 <= 59 )
+                {
+                    alert ("voce é um adulto!!");
+                } else if (i1 => 60)
+                {
+                    alert ("voce é um idoso!!");
+                }
+                
+        }
+
+            </script>
+    </head>
+
+<body>
+ <h1>javascript</h1>
+    
+ <p>javascript e diferente de java</p>
+
+ <button onclick="oi ()">clique aqui</button>
+ 
+ 
+ <button onclick="maior()">qual e o maior?</button>
+
+ <button onclick="maior3()">qual e o maior exe.?</button>
+
+ <button onclick="idade()"> teste de idade </button>
+
+</body>
+
+</html>
