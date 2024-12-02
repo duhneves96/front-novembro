@@ -19,6 +19,19 @@
             var texto = entrada.value;     
             resultado.innerText = texto;
         }
+        function clique2 () 
+        {
+            var texto = entrada.value.toUpperCase();            
+            resultado.innerText = texto;
+        }
+        function clique3 () 
+        {
+            var texto = entrada.value;  
+            var letra = texto.charAt(0).toUpperCase();
+            var resto = texto.slice(1).toLowerCase();
+            resultado.innerText = letra + resto;
+        }
+
 
 
             function sub()
@@ -49,6 +62,8 @@
     <body>
 <input  id="entrada" type="text" />
 <button onclick="clique ()">clique aqui</button>
+<button onclick="clique2 ()">Maiuscula</button>
+<button onclick="clique3 ()">1 letra</button>
 <br>
 <br>
 <input id="n1" type="text">

@@ -4,18 +4,16 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> vetores</title>
-        <script>
-            // estruturas de dados
-            // vetores = 
-            // indice sao os lugares de cada
+    <style>
+        .texto {
+            border: 1px solid black;
+            margin-top: 20px;
+            padding: 6px;
+        }
 
-            var cidade = ["Curitiba","Colombo","Pinhais"]
-            console.log(cidade)
-            //push adiciona novo indice no final
-            cidade.push("araucaria")
-            //unshitf adiciona novo indice no inicio
-            cidade.unshift("campo largo")
-
+    </style>
+        <script src="vetores.js">
+         
         </script>    
 
 
@@ -24,5 +22,16 @@
 
     <body>
 <h1>Vetores</h1>
+
+<button onclick="listar()">listar</button> 
+<button onclick="ordenar()">ordem alfabetica</button>
+<br>
+<input type="text" id="nome">
+<button onclick="add()">add</button>
+
+<div id="resultado" class="texto">
+    resultado
+</div>
+
     </body>
 </html>

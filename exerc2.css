@@ -1,10 +1,10 @@
 .icon{
     
     border: 1px solid black;
-    border-radius: 80px;
+    border-radius: 100px;
     background-color: rgb(73, 73, 73);
     width: 18px;
-    padding: 16px 16px 15px 16px;
+    padding: 16px 35px 15px 16px;
     float: left;
     margin: 3px;
     position: relative;
@@ -38,7 +38,7 @@
 
 
 }
-.g{ width: 75px;
+.g{ width: 110px;
 text-align: left;
 }
 .display{ 
